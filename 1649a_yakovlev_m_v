@@ -27,7 +27,7 @@ void solve(){
         }
 
     }
-    cout<<n-(st+end);
+    cout<<n-(st+end)+1;
 }
 int main() {
     int t;
