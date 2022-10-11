@@ -27,7 +27,15 @@ void solve(){
         }
 
     }
-    cout<<n-(st+end)+1;
+    if (st+end>=n){
+        cout<<0<<endl;
+    }
+    else if (n-st-end+1<=n-1){
+        cout<<n-st-end+1<<endl;
+    }else{
+        cout<<n-1<<endl;
+
+    }
 }
 int main() {
     int t;
